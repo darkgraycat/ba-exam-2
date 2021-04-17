@@ -1,0 +1,23 @@
+.gallery-section {
+  width: 100%;
+  height: 1000px;
+  
+  
+  .gallery {
+
+    &__img {
+      width: 285px;
+      height: 214px;
+    }
+    &__img360 {
+      width: 580px;
+      height: 438px;
+      background-image: url('../img/gallery_360.png');
+    }
+    
+    &__img:nth-child(1) {background-image: url('../img/gallery_1.png');}
+    &__img:nth-child(2) {background-image: url('../img/gallery_2.png');}
+    &__img:nth-child(3) {background-image: url('../img/gallery_3.png');}
+    &__img:nth-child(4) {background-image: url('../img/gallery_4.png');}
+  }
+}
