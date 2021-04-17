@@ -1,0 +1,23 @@
+{
+  "name": "exam-2",
+  "version": "1.0.0",
+  "description": "monticello",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass src/scss/index.scss:css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkgraycat/ba-exam-2.git"
+  },
+  "author": "darkgraycat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darkgraycat/ba-exam-2/issues"
+  },
+  "homepage": "https://github.com/darkgraycat/ba-exam-2#readme",
+  "dependencies": {
+    "sass": "^1.32.10"
+  }
+}
