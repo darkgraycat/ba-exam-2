@@ -14,9 +14,92 @@
 .header {
   background-image: url("../img/header_bg.png");
   background-repeat: no-repeat;
-  background-position: cover;
+  background-position: center;
   width: 100%;
   height: 800px;
+}
+.header .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.header__bar {
+  width: 100%;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.header__title {
+  font-size: 80px;
+  letter-spacing: 4px;
+  color: #ffffff;
+  font-family: "GothamBold";
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px auto;
+}
+.header__desc {
+  font-size: 18px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  font-family: "GothamBold";
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px auto;
+}
+.header__nav ul {
+  margin-left: -100px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 40px;
+}
+.header__nav ul li ::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 10px;
+  color: transparent;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.header__nav ul li a {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "GothamRegular";
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.header__socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+.header__socials a {
+  font-size: 16px;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  text-decoration: none;
 }
 
 .projects-section {
@@ -27,7 +110,7 @@
   width: 630px;
   height: 470px;
   background-repeat: no-repeat;
-  background-position: cover;
+  background-position: top;
 }
 .projects-section .card__img-left {
   background-image: url("../img/projects_1.png");
@@ -92,14 +175,34 @@
   background-image: url("../img/gallery_4.png");
 }
 
+.contact-section {
+  width: 100%;
+  height: 700px;
+}
+
+.footer {
+  width: 100%;
+  height: 520px;
+  background-image: linear-gradient(45deg, #55b7ff 0%, #7d59ff 100%);
+}
+
 html, body {
   width: 100%;
   height: auto;
+  font-family: "GothamRegular";
 }
 
 .container {
   max-width: 1170px;
+  height: 100%;
   margin: 0 auto;
+}
+
+.logo {
+  background-image: url("../img/Logo.svg");
+  background-position: center;
+  width: 240px;
+  height: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

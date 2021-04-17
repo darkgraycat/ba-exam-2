@@ -15,30 +15,41 @@
 </head>
 
 <body>
+
+  <!-- navigation dots -->
+  <div class="controls" style="display: none;"></div>
+
+  <!-- header -->
   <header class="header">
     <div class="container">
       <div class="header__bar">
-        <div class="header__logo">Monticello</div>
+        <div class="header__logo logo"></div>
         <nav class="header__nav">
           <ul>
-            <li>
-              <a href="#">ABOUT US</a>
-              <a href="#">PROJECTS</a>
-              <a href="#">NEWS</a>
-              <a href="#">CONTACT</a>
-            </li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </nav>
+        <div class="header__socials">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
       </div>
-      <div class="header__slider slider">
-        <h1>SIMPLE & MODERN</h1>
-        <h4>WE MAKE THE WORLD'S BEAUTIFUL EVERY DAY</h4>
+      <div>
+        <h1 class="header__title">Simple & mordern</h1>
+        <h4 class="header__desc">We make the world's beautiful every day</h4>
       </div>
       <div class="header__down-arrow"></div>
     </div>
   </header>
 
+  <!--  -->
   <main>
+
+    <!-- projects -->
     <section class="projects-section">
       <div class="container">
         <div class="title">WHAT WE DO</div>
@@ -87,6 +98,8 @@
 
       </div>
     </section>
+
+    <!-- news -->
     <section class="news-section">
       <div class="container">
         <div class="title">LATEST NEWS</div>
@@ -135,6 +148,8 @@
         </div>
       </div>
     </section>
+
+    <!-- gallery -->
     <section class="gallery-section">
       <div class="container">
         <div class="title">GALLERY</div>
@@ -152,14 +167,32 @@
         </div>
       </div>
     </section>
+
+    <!-- contact -->
     <section class="contact-section">
-      <div class="container"></div>
+      <div class="map" id="map-container"></div>
+      <div class="container">
+        <div class="contact-section form">
+          <div class="form__address">
+            <div>91 Nolan Extensions Suite 670</div>
+            <div>+001 356-868-2454</div>
+            <div>gahuy93@gmail.com</div>
+            <div>From 07:05AM to 19:30PM</div>
+          </div>
+          <div class="form__inputs">
+            <input type="text" placeholder="Your name">
+            <input type="text" placeholder="Email">
+            <div class="form__btn btn">SUBMIT</div>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 
+  <!-- footer -->
   <footer class="footer">
     <div class="container">
-
+      <div class="footer__logo logo"></div>
     </div>
   </footer>
 

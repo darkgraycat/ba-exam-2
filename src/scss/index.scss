@@ -2,6 +2,7 @@
 
 @import 'fonts.scss';
 @import 'mixins.scss';
+@import 'variables.scss';
 
 @import 'header.scss';
 @import 'projects-section.scss';
@@ -10,16 +11,22 @@
 @import 'contact-section.scss';
 @import 'footer.scss';
 
-$font-regular: 'GothamRegular';
-$font-bold: 'GothamBold';
-$font-book: 'GothamBook';
 
 html, body {
   width: 100%;
   height: auto;
+  font-family: $font-regular;
 }
 
 .container {
   max-width: 1170px;
+  height: 100%;
   margin: 0 auto;
+}
+
+.logo {
+  background-image: url('../img/Logo.svg');
+  background-position: center;
+  width: 240px;
+  height: 50px;
 }

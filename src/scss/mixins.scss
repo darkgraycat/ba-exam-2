@@ -1,0 +1,20 @@
+@mixin flex($direction, $justify, $align, $wrap) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+  flex-wrap: $wrap;
+}
+
+@mixin nav-dot($color, $borderColor){
+  ::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 10px;
+    color: $color;
+    border: 1px solid $borderColor;
+    border-radius: 50%;
+  }
+}
