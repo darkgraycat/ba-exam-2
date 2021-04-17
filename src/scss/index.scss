@@ -1,0 +1,25 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+@import 'fonts.scss';
+@import 'mixins.scss';
+
+@import 'header.scss';
+@import 'projects-section.scss';
+@import 'news-section.scss';
+@import 'gallery-section.scss';
+@import 'contact-section.scss';
+@import 'footer.scss';
+
+$font-regular: 'GothamRegular';
+$font-bold: 'GothamBold';
+$font-book: 'GothamBook';
+
+html, body {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}

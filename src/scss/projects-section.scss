@@ -1,0 +1,13 @@
+.card {
+
+
+
+  &__img {
+    width: 630px;
+    height: 470px;
+    background-repeat: no-repeat;
+    background-position: cover;
+  }
+  &__img-left { background-image: url('../img/projects_1.png'); }
+  &__img-right { background-image: url('../img/projects_2.png'); }
+}
