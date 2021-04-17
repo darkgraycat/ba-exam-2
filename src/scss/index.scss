@@ -30,3 +30,41 @@ html, body {
   width: 240px;
   height: 50px;
 }
+
+.title {
+  font-size: 44px;
+  color: $color-dark;
+  font-family: $font-bold;
+  text-align: center;
+  &::before {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 2px;
+    margin: 30px auto;
+    background-color: $color-dark;
+  }
+}
+
+.btn {
+  width: 190px;
+  padding: 20px;
+  box-sizing: border-box;
+  color: $color-dark;
+  border: 2px solid $color-dark;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-dark;
+    color: $color-light;
+  }
+
+  &:active {
+    border-color: $color-light;
+  }
+}
+
+.header {display: none;}
+.projects-section {display: none;}

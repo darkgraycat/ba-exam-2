@@ -18,7 +18,7 @@
   &__title {
     font-size: 80px;
     letter-spacing: 4px;
-    color: #ffffff;
+    color: $color-light;
     font-family: $font-bold;
     text-align: center;
     text-transform: uppercase;
@@ -28,7 +28,7 @@
   &__desc {
     font-size: 18px;
     letter-spacing: 5px;
-    color: #ffffff;
+    color: $color-light;
     font-family: $font-bold;
     text-align: center;
     text-transform: uppercase;
@@ -42,10 +42,10 @@
       @include flex(row, center, center, nowrap);
       gap: 40px;
       li {
-        @include nav-dot(transparent, white);
+        @include nav-dot(transparent, $color-light);
         a {
           font-size: 14px;
-          color: #ffffff;
+          color: $color-light;
           font-family: $font-regular;
           text-decoration: none;
           text-transform: uppercase;
@@ -60,10 +60,10 @@
     gap: 20px;
     a {
       font-size: 16px;
-      color: #ffffff;
+      color: $color-light;
       width: 40px;
       height: 40px;
-      border: 1px solid white;
+      border: 1px solid $color-light;
       border-radius: 50%;
       @include flex(row, center, center, nowrap);
       text-decoration: none;
