@@ -32,7 +32,6 @@
     }
 
     &__inputs {
-      width: 
       @include flex(column, center, flex-end, nowrap);
       gap: 20px;
     }
